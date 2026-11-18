@@ -40,7 +40,7 @@ New-AzVm `
 -SshKeyName $sshKeyName  -PublicIpAddressName $publicIpAddressName
 
 # ↓↓↓ Write your code here ↓↓↓
-$installScriptUri = "https://raw.githubusercontent.com/Khrystyna-tkach/azure_task_12_deploy_app_with_vm_extention/main/install-app.sh"
+$installScriptUri = "https://raw.githubusercontent.com/Khrystyna-tkach/azure_task_12_deploy_app_with_vm_extention/develop/install-app.sh"
 $Params = @{
     ResourceGroupName = $resourceGroupName
     VMName = $vmName
