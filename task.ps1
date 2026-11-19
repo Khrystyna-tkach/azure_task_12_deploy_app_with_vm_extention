@@ -110,3 +110,4 @@ for ($i = 1; $i -le $vmCount; $i++) {
 
     Set-AzVMExtension @Params -ErrorAction Stop
 }
+
